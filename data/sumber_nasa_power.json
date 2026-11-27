@@ -1,0 +1,81 @@
+{
+  "tanggal_unduh": "2026-11-26",
+  "parameter": "PRECTOTCORR",
+  "komunitas": "AG",
+  "periode": "2011-01 sampai 2025-12",
+  "unit_api": "mm/day",
+  "unit_kolom_curah_hujan": "mm/bulan",
+  "konversi": "PRECTOTCORR dikalikan jumlah hari kalender pada bulan terkait; kunci YYYY13 dikeluarkan dari CSV.",
+  "lokasi": [
+    {
+      "kabupaten": "Grobogan",
+      "kode_bps": "3315",
+      "latitude_request": -7.116827,
+      "longitude_request": 110.927039,
+      "longitude_api": 110.927,
+      "latitude_api": -7.117,
+      "file": "raw/grobogan_PRECTOTCORR_2011_2025.json",
+      "sha256": "3f2d34044cf1d7f62fd3a1aa7f487bbf6722c65d3617d1f2390e034b0dc4eeb4",
+      "url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=PRECTOTCORR&community=AG&format=JSON&start=2011&end=2025&latitude=-7.116827&longitude=110.927039",
+      "api": {
+        "version": "v2.10.1",
+        "name": "POWER Monthly and Annual API"
+      },
+      "sumber": [
+        "MERRA2"
+      ],
+      "standar_waktu": "LST",
+      "fill_value": -999.0,
+      "bulan_valid": 180
+    },
+    {
+      "kabupaten": "Cilacap",
+      "kode_bps": "3301",
+      "latitude_request": -7.490892,
+      "longitude_request": 108.890374,
+      "longitude_api": 108.89,
+      "latitude_api": -7.491,
+      "file": "raw/cilacap_PRECTOTCORR_2011_2025.json",
+      "sha256": "c90bfb9abc67872b43d5dc99903398ace814bc3de92d984929fc5a5ee09b20eb",
+      "url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=PRECTOTCORR&community=AG&format=JSON&start=2011&end=2025&latitude=-7.490892&longitude=108.890374",
+      "api": {
+        "version": "v2.10.1",
+        "name": "POWER Monthly and Annual API"
+      },
+      "sumber": [
+        "MERRA2"
+      ],
+      "standar_waktu": "LST",
+      "fill_value": -999.0,
+      "bulan_valid": 180
+    },
+    {
+      "kabupaten": "Sragen",
+      "kode_bps": "3314",
+      "latitude_request": -7.387202,
+      "longitude_request": 110.977515,
+      "longitude_api": 110.978,
+      "latitude_api": -7.387,
+      "file": "raw/sragen_PRECTOTCORR_2011_2025.json",
+      "sha256": "38f8c53d98b7c61e88420315c97425ca7a73f82a05187745857f0f99319472be",
+      "url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=PRECTOTCORR&community=AG&format=JSON&start=2011&end=2025&latitude=-7.387202&longitude=110.977515",
+      "api": {
+        "version": "v2.10.1",
+        "name": "POWER Monthly and Annual API"
+      },
+      "sumber": [
+        "MERRA2"
+      ],
+      "standar_waktu": "LST",
+      "fill_value": -999.0,
+      "bulan_valid": 180
+    }
+  ],
+  "verifikasi": {
+    "jumlah_baris": 540,
+    "nilai_kosong": 0,
+    "duplikat_lokasi_bulan": 0,
+    "cocok_dengan_tabel_tahap_1": 15,
+    "cocok_dengan_arsip_workspace": 540
+  }
+}
