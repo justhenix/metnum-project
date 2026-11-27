@@ -2,7 +2,7 @@
 
 Kode GNU Octave, data, dan referensi untuk Laporan Tahap II Metode Numerik. Penelitian ini membandingkan interpolasi linear, Newton beda terbagi kubik, dan PCHIP untuk mengisi satu bulan curah hujan yang hilang di Grobogan, Cilacap, dan Sragen pada 2011–2025.
 
-Laporan: [docs/A_9_CV_2.pdf](docs/A_9_CV_2.pdf). Kode di `src/` sama dengan BAB III laporan.
+Laporan: [docs/A_9_CV_2.pdf](docs/A_9_CV_2.pdf). Kode di `src/` sama dengan bagian Kode Program di laporan.
 
 ## Menjalankan
 
